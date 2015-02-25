@@ -55,7 +55,7 @@ var imgView = Titanium.UI.createImageView({
 	width:"35dp",
 	right:"10dp"
 });
-//row.add(imgView);
+row.add(imgView);
 
 dataArray.push(row);
 

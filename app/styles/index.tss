@@ -1,5 +1,7 @@
 ".container": {
-	backgroundColor:"#fff"
+	backgroundColor:"#fff",
+	fullscreen: true,
+	theme: "Theme.NoActionBar"
 },
 "#windowView":{
 	top : 0,
@@ -18,7 +20,7 @@
 "#headerTitle":{
 	color:"#ffffff",
 	font:{
-   		fontSize:17,
+   		fontSize:18,
 		fontWeight:'bold'
 	}
 },

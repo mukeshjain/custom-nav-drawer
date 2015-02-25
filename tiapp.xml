@@ -4,12 +4,13 @@
     <name>custom Nav Drawer</name>
     <version>1.0</version>
     <publisher>Mukesh</publisher>
-    <url>http://</url>
+    <url></url>
     <description/>
     <copyright>2015 by Mukesh</copyright>
     <icon>appicon.png</icon>
-    <fullscreen>false</fullscreen>
-    <navbar-hidden>false</navbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <statusbar-hidden>true</statusbar-hidden>
     <analytics>true</analytics>
     <guid>dd60bd21-2322-4f0d-beb1-01db36985429</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
@@ -38,7 +39,13 @@
             </dict>
         </plist>
     </ios>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+    	<manifest>
+			<application android:theme="@style/Theme.NoActionBar"/>
+			<!-- Need to specify at least API level 11 for Titanium SDK 3.2.x and prior -->
+			<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+		</manifest>
+    </android>
     <mobileweb>
         <precache/>
         <splash>

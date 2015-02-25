@@ -2,7 +2,7 @@
 	<Window class="container">
 		<View id="windowView">
 			<View id="headerView">
-				<Label id="headerTitle">Custom Nav Drawer</Label>
+				<Label id="headerTitle">CUSTOM NAV DRAWER</Label>
 			</View>
 		</View>
 		<Button id="menuBtn"/>
