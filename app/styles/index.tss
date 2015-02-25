@@ -1,0 +1,46 @@
+".container": {
+	backgroundColor:"#fff"
+},
+"#windowView":{
+	top : 0,
+    left : 0,
+    right : 0,
+    width : '100%',
+    height : '100%',
+    backgroundColor : "#FF4D4D",
+    zIndex : 1
+},
+"#headerView":{
+	backgroundColor:"#3B3C3F",
+	top:"0dp",
+	height:"50dp"
+},
+"#headerTitle":{
+	color:"#ffffff",
+	font:{
+   		fontSize:17,
+		fontWeight:'bold'
+	}
+},
+"#menuBtn":{
+	backgroundImage:"/images/menu-ico.png",
+	backgroundSelectedImage:"/images/menu-ico_select.png",
+	backgroundDisabledImage:"/images/menu-ico.png",
+    height:"35dp",
+    width:"35dp",
+    top:"5dp",
+    left : "10dp",
+    zIndex : 999
+},
+"#tableView":{
+	 backgroundColor:"#fff"
+},
+"#menuWindow":{
+	top : "0dp",
+    left : 0,
+    width : 240,
+    backgroundColor:"#bbb"
+}
+
+
+

@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container">
+		<View id="windowView">
+			<View id="headerView">
+				<Label id="headerTitle">Custom Nav Drawer</Label>
+			</View>
+		</View>
+		<Button id="menuBtn"/>
+		<View id="menuWindow">
+			<TableView id="tableView"></TableView>	
+		</View>
+	</Window>
+</Alloy>
