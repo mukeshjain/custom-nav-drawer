@@ -96,7 +96,7 @@ $.menuBtn.addEventListener('click', function(e) {
 });
 
 $.windowView.addEventListener('click', function(e) {
-
+	/*
 	if(toggle){
 		
 		toggle = false;
@@ -104,5 +104,41 @@ $.windowView.addEventListener('click', function(e) {
 		$.menuBtn.animate(hideBtn);
 	   
 	}//if
+	*/
+});
 
+var swipeLeftToRight = function(start, end) {
+	
+    var dif = end - start;
+    if(dif > 100) { 
+        return true;
+    } else {
+        return false;
+    }
+    
+};
+ 	
+ 	var lr_start = null;
+ 	var lr_end = null;
+ 
+$.windowView.addEventListener('touchstart', function(e1) {
+    lr_start = e1.x;
+});
+ 
+$.windowView.addEventListener('touchend', function(e2) {
+    lr_end = e2.x;
+   
+    if(lr_start) {
+        if(swipeLeftToRight(lr_start, lr_end)) {
+            
+            if(toggle == false){					
+			   toggle = true;
+			   $.windowView.animate(show);
+			   $.menuBtn.animate(showBtn);
+			   
+			}//else
+        }
+        lr_start = null;
+    }
+    
 });
