@@ -35,7 +35,8 @@
     zIndex : 999
 },
 "#tableView":{
-	 backgroundColor:"#fff"
+	 backgroundColor:"#fff",
+	 separatorColor:"#bbb"
 },
 "#menuWindow":{
 	top : "0dp",

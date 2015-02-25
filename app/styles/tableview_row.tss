@@ -1,0 +1,20 @@
+
+"#tableRow" : {
+  	height:"75dp",
+	backgroundColor:"#fff",
+	backgroundSelectedColor:"#FF8080"
+},
+"#titleLbl" : {
+	left:"10dp",
+	color:"#6D6E71",
+	font:{
+  		fontSize:15,
+  		fontFamily:'Arial',
+		fontWeight:'regular'
+	}
+},
+"#imgView" : {
+	height:"35dp",
+	width:"35dp",
+	right:"10dp"
+}
